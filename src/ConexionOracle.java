@@ -5,6 +5,7 @@ import java.sql.Connection;
 public class ConexionOracle {
     public static void main(String[] args) {
 
+        //Añadimos los datos para conectar a Oracle
         String url = "jdbc:oracle:thin:@localhost:1521:XE";
         String usuario = "RIBERA";
         String password = "ribera";
